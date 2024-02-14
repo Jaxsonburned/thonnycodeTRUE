@@ -1,0 +1,35 @@
+#Attributes
+hair_color = "brown"
+eye_color = "brown"
+name = "jaxson" #String
+age = 101 #Integer
+height = 6.1 #Float
+hungry = True #Boolean
+
+#Conditoinal Statements
+print(hungry)
+
+if hungry:
+    print("Take these six hamburgers!")
+else:
+    print("Take this water")
+        
+if hungry == True:
+    print("Take these five hamburgers!")
+else:
+    print("Take this water")
+    
+    
+#variable = True Statement if (Condition) else Fall
+    state = "Hamburgers" if hungry else "Water"
+    print(state)
+    
+    #Data Types
+    
+    print( type("Hair_Color:" + str(type(hair_color)) )  )
+    print( type(eye_color) )
+    print( type(name) )
+    print( type(age) )
+    print( type(height) )
+    print( type(hungry) )
+    
